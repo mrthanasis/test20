@@ -1,7 +1,7 @@
 import os
 cwd = os.getcwd()
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=cwd+"\My-Project-2020-c7c568ac149d.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="My-Project-2020-c7c568ac149d.json"
 import google.auth
 import google.auth.transport.requests
 from google.cloud import bigquery
